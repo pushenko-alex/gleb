@@ -1,0 +1,39 @@
+{
+  "name": "TEMPLATE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:blazze6/template-scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://google.ru",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-watch": "^4.3.5",
+    "pug": "^2.0.3",
+    "rigger": "^0.5.10",
+    "rimraf": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.1",
+    "smart-grid": "^1.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-stream": "^5.1.1"
+  }
+}
